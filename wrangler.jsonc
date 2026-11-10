@@ -1,4 +1,10 @@
-name = "bolt"
-compatibility_date = "2025-03-28"
-compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = "./build/client"
+{
+  "name": "bolt",
+  "main": "./workers/app.ts",
+  "compatibility_date": "2025-03-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true
+}
