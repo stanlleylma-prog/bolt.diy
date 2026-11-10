@@ -7,5 +7,5 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
-}
+  "upload_source_maps": true,
+"pages_build_output_dir": "./build/client"}
